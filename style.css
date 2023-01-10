@@ -2,11 +2,15 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
 }
 
+header, .website-is-awesome-section, .random-items-section,
+.quote-section, .call-to-action-section, footer {
+  padding: 20px 90px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  padding: 20px;
 }
 
 #logo {
@@ -27,4 +31,44 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+
+.website-is-awesome-section {
+  padding: 100px 90px;
+  display: flex;
+  flex: 1;
+  background-color: #1f2937;
+}
+
+#hero {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+#hero-img {
+  max-width: 300px;
 }
