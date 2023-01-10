@@ -2,15 +2,13 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
 }
 
-header, .website-is-awesome-section, .random-items-section,
-.quote-section, .call-to-action-section, footer {
-  padding: 20px 90px;
-}
+/* =========== Header Part ========== */
 
 header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
+  padding: 10px 90px;
 }
 
 #logo {
@@ -33,6 +31,7 @@ a {
   color: #e5e7eb;
 }
 
+/* =========== This Website is Awesome ========== */
 
 .website-is-awesome-section {
   padding: 100px 90px;
@@ -71,4 +70,52 @@ button {
 
 #hero-img {
   max-width: 300px;
+}
+
+/* =========== Some random information. ========= */
+.random-items-section {
+  padding: 10px 150px;
+}
+
+#random-items-title {
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.items-container {
+  display: flex;
+  gap: 40px;
+}
+
+.random-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtext {
+  display: flex;
+  text-align: center;
+  flex: 1;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
+#author {
+  text-align: end;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
 }
