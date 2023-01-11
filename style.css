@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  padding: 10px 90px;
+  padding: 10px 120px;
 }
 
 #logo {
@@ -34,7 +34,7 @@ a {
 /* =========== This Website is Awesome ========== */
 
 .website-is-awesome-section {
-  padding: 100px 90px;
+  padding: 120px;
   display: flex;
   flex: 1;
   background-color: #1f2937;
@@ -70,17 +70,20 @@ button {
 
 #hero-img {
   max-width: 300px;
+  margin-left: 35px;
 }
 
 /* =========== Some random information. ========= */
 .random-items-section {
-  padding: 10px 150px;
+  /* padding: 10px 150px; */
+  padding: 10px 150px 100px 150px;
 }
 
 #random-items-title {
   text-align: center;
-  font-size: large;
+  font-size: 30px;
   font-weight: bolder;
+  margin-bottom: 40px;
 }
 
 .items-container {
@@ -99,11 +102,12 @@ button {
   flex: 1;
 }
 
+/* =========== Quote section ========= */
 .quote-section {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 150px;
+  padding: 150px 150px 90px 150px;
 }
 
 #quote {
@@ -115,7 +119,49 @@ button {
 
 #author {
   text-align: end;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: bold;
+  margin: 9px 0px;
+}
+
+/* =========== Call to action Section ========= */
+
+.call-to-action-section {
+  padding: 120px;
+}
+
+.blue-rectangle-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 35px 90px;
+  border-radius: 5px;
+}
+
+#call-to-action {
+  color: #F9FAF8;
+  font-size: 26px;
   margin: 0;
+}
+
+#sign-up-for {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+#button-sign-up-action {
+  border: 2px solid #F9FAF8;
+}
+
+/* =========== Footer ========= */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  flex: 1;
+  height: 20vh;
 }
